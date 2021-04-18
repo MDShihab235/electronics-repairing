@@ -1,7 +1,7 @@
 # Electronics Repairing---
   This is complete web development project.
   Live site: https://electronics-repairing-fire.web.app/
-  Visit my site and feedback me for this projects.
+  Visit my site and feedback me for this project.
 
 # Features---
   1. This is dynamically handled data from database
