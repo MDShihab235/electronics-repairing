@@ -22,7 +22,7 @@ const AddEngineer = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
 
-        fetch('http://localhost:5000/addEngineer', {
+        fetch('https://thawing-retreat-01863.herokuapp.com/addEngineer', {
             method: 'POST',
             body: formData
         })

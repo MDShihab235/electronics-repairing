@@ -7,7 +7,7 @@ const Engineer = ({engineer}) => {
             {
                 engineer.image ? <img style={{height: '200px'}} src={`data:image/png;base64,${engineer.image.img}`}/>
                 :
-                <img style={{height: '200px'}} className="img-fluid mb-3" src={`http://localhost:5000/${engineer.img}`} alt=""/>
+                <img style={{height: '200px'}} className="img-fluid mb-3" src={`https://thawing-retreat-01863.herokuapp.com/${engineer.img}`} alt=""/>
             }
             
             <h4>{engineer.name}</h4>
